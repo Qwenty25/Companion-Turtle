@@ -1,6 +1,18 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "companionturtle:item/deodorant"
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "companionturtle:item/deodorant_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "companionturtle:item/deodorant_3d"
+    },
+    "ground": {
+      "parent": "companionturtle:item/deodorant_3d"
+    },
+    "fixed": {
+      "parent": "companionturtle:item/deodorant_3d"
+    }
   }
 }
